@@ -4,6 +4,8 @@ import 'package:myuat/views/splash.dart';
 void main() => runApp(MyUAT());
 
 class MyUAT extends StatelessWidget {
+  const MyUAT({Key? key}) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
